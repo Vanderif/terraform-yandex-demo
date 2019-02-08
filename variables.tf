@@ -10,6 +10,7 @@ variable "master_scripts" {
   type = "list"
   default = [
     "scripts/docker.sh",
+    "scripts/kubectl.sh"
   ]
 }
 
